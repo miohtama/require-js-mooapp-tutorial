@@ -3,6 +3,10 @@
 //  http://requirejs.org/docs/api.html#config
 require.config({
 
+    // Our top folder is one level below this file (mooapp/main.js),
+    // as we refer to modules in ../thirdparty and such
+    baseUrl : "..",
+
     // You can map module names where they are located in source tree
     // (Useful for third party modules)
     paths: {
